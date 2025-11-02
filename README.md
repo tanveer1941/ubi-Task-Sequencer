@@ -152,20 +152,9 @@ The system includes comprehensive error handling:
 ## Testing
 
 ### Test Coverage
-The solution includes comprehensive test classes with 90%+ code coverage:
+The solution includes test classes with comprehensive code coverage:
 
 - **TaskSequencerHelperTest**: Tests core sequencing logic
 - **OpportunityTriggerHandlerTest**: Tests process validation and task creation
 - **TaskTriggerHandlerTest**: Tests task completion handling
 - **ErrorHandlerTest**: Tests error handling scenarios
-
-### Running Tests
-```apex
-// Execute all tests
-Test.runAllTests();
-
-// Or run specific test classes
-TestSequencerHelperTest test1 = new TestSequencerHelperTest();
-OpportunityTriggerHandlerTest test2 = new OpportunityTriggerHandlerTest();
-TaskTriggerHandlerTest test3 = new TaskTriggerHandlerTest();
-ErrorHandlerTest test4 = new ErrorHandlerTest();
