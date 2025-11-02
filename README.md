@@ -2,7 +2,7 @@
 
 ## Entity Relationship Diagram
 
-![ERD Diagram](images/erd-diagram.png)
+![ERD Diagram](images/erd-diagram.png) 
 
 ## Overview
 A configurable Task Sequencer system in Salesforce that automatically creates and manages sequential tasks on Opportunities based on operational processes selected by users. This solution helps ubitricity manage complex workflows for EV charging infrastructure deployment by tracking sequential tasks automatically.
