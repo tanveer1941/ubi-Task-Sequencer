@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>ErrorHandler</members>
+		<members>ErrorHandlerTest</members>
+		<members>OpportunityTriggerHandler</members>
+		<members>OpportunityTriggerHandlerTest</members>
+		<members>TaskSequencerHelper</members>
+		<members>TaskSequencerHelperTest</members>
+		<members>TaskTriggerHandler</members>
+		<members>TaskTriggerHandlerTest</members>
+		<members>TestDataFactoryClass</members>
+		<members>TestUtility</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+        <members>OpportunityTrigger</members>
+        <members>TaskTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+	<types>
+		<members>ubi</members>
+		<name>CustomApplication</name>
+	</types>
+    <types>
+		<members>ubi_UtilityBar</members>
+		<name>FlexiPage</name>
+	</types>
+
+    <types>
+		<members>ubitricityshell</members>
+		<name>ContentAsset</name>
+	</types>
+    
+    <types>
+		<members>Process_Track__c</members>
+		<members>Task_Sequence__c</members>
+		<members>Task__c</members>
+		<name>CustomTab</name>
+	</types>
+    <types>
+        <members>Process_Track__c</members>
+        <members>Task_Sequence__c</members>
+        <members>Task__c</members>
+        <name>CustomObject</name>
+        
+	
+	</types>
+    <types>
+		<members>Opportunity.NonExistentField__c</members>
+        <members>Opportunity.Process__c</members>
+		<members>Process_Track__c.Description__c</members>
+		<members>Process_Track__c.Type__c</members>
+		<members>Task_Sequence__c.Description__c</members>
+		<members>Task_Sequence__c.Estimated_Duration__c</members>
+		<members>Task_Sequence__c.Process_Track__c</members>
+		<members>Task_Sequence__c.Sequence_Order__c</members>
+		<members>Task_Sequence__c.Task_Name__c</members>
+		<members>Task__c.Completed_Date__c</members>
+		<members>Task__c.Description__c</members>
+		<members>Task__c.Due_Date__c</members>
+		<members>Task__c.Opportunity__c</members>
+		<members>Task__c.Process_Track__c</members>
+		<members>Task__c.Status__c</members>
+		<members>Task__c.Task_Name__c</members>
+		<members>Task__c.Task_Sequence__c</members>
+		<name>CustomField</name>
+	</types>
+
+    <types>
+		<members>Opportunity-Opportunity Layout</members>
+		<members>Process_Track__c-Process Track Layout</members>
+		<members>Task_Sequence__c-Task Sequence Layout</members>
+		<members>Task__c-Opportunity Task Layout</members>
+		<name>Layout</name>
+	</types>
+
+    <types>
+		<members>ubi_Task_Sequencer</members>
+		<name>PermissionSet</name>
+	</types>
+    <types>
+		<members>Process</members>
+		<name>GlobalValueSet</name>
+	</types>
+    <types>
+		<members>Process</members>
+		<name>PathAssistant</name>
+	</types>
+
+
+	<version>65.0</version>
+</Package>
+
